@@ -275,3 +275,5 @@ for (let day of days) {
   const open = restaurant.openingHours[day]?.open || 'closed';
   console.log(`on ${day}. we open at ${open}`);
 }
+
+console.log('for testing ');
